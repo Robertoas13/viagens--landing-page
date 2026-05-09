@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripMe | Explore Vilarejos pelo Mundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav id="navbar">
+            <div class="logo">TripMe</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#minhaviagem">Minha Viagem</a></li>
+                <li><a href="#nosencontre">Nos Encontre</a></li>
+                <li><a href="#conselhos">Conselhos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <!-- Banner Principal -->
+        <section class="banner" role="img" aria-label="Vista panorâmica de um vilarejo alpino com montanhas nevadas">
+            <div class="overlay">
+                <h1>Explore Vilarejos Inesquecíveis</h1>
+                <p>Sua próxima aventura começa aqui, com experiências autênticas e remotas.</p>
+                <!-- O botão chama a função interativa -->
+                <button class="btn-main" onclick="capturarContato()">Explorar Agora</button>
+            </div>
+        </section>
+
+        <!-- Seção 1: Minha Viagem -->
+        <section id="minhaviagem" class="section-container">
+            <h2>Minha Viagem</h2>
+            <div class="grid-cards">
+                <div class="card">
+                    <img src="quarto-luxo.png" 
+                         alt="Quarto de hotel luxuoso com decoração moderna em tons de dourado" 
+                         title="Hospedagens exclusivas e confortáveis">
+                    <h3>Hospedagem Premium</h3>
+                    <p>O máximo de conforto nos melhores destinos do mundo.</p>
+                </div>
+                <div class="card">
+                    <img src="rua-historica.png" 
+                         alt="Rua de paralelepípedos em vilarejo histórico com casas de pedra" 
+                         title="Roteiros repletos de história e cultura">
+                    <h3>Roteiros Culturais</h3>
+                    <p>Caminhadas guiadas por vilas centenárias preservadas.</p>
+                </div>
+                <div class="card">
+                    <img src="breakfast.png" 
+                         alt="Mesa de café da manhã farta com waffles e frutas" 
+                         title="Sabores locais inesquecíveis">
+                    <h3>Gastronomia Local</h3>
+                    <p>Saboreie o melhor da culinária regional em cada parada.</p>
+                </div>
+            </div>
+            <a href="#home" class="back-link">Voltar ao Topo</a>
+        </section>
+
+        <!-- Seção 2: Nos Encontre -->
+        <section id="nosencontre" class="section-container bg-alt">
+            <h2>Nos Encontre</h2>
+            <div class="contact-content">
+                <img src="por-do-sol.png" 
+                     alt="Pôr do sol no oceano com silhueta de pássaro voando" 
+                     title="Planeje sua viagem com nossa equipe"
+                     class="img-contato-ajustada">
+                <div class="contact-info">
+                    <p><strong>📍 Localização:</strong> Lauro de Freitas, Bahia</p>
+                    <p><strong>📧 E-mail:</strong> contato@tripme.com.br</p>
+                    <p><strong>📞 Telefone:</strong> (71) 9999-9999</p>
+                </div>
+            </div>
+            <a href="#home" class="back-link">Voltar ao Topo</a>
+        </section>
+
+        <!-- Seção 3: Conselhos -->
+        <section id="conselhos" class="section-container">
+            <h2>Conselhos</h2>
+            <div class="advice-box">
+                <p>Para uma viagem sem imprevistos, siga nossas recomendações:</p>
+                <ul class="advice-list">
+                    <li>Verifique a validade do seu passaporte com 6 meses de antecedência.</li>
+                    <li>Sempre contrate um seguro viagem internacional.</li>
+                    <li>Leve adaptadores de tomada universais para seus dispositivos.</li>
+                </ul>
+            </div>
+            <a href="#home" class="back-link">Voltar ao Topo</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TripMe - Desenvolvido por Roberto Silva</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
